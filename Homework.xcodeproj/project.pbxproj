@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7ACF329C2157A8B700ED379F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF329B2157A8B700ED379F /* AppDelegate.swift */; };
-		7ACF329E2157A8B700ED379F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF329D2157A8B700ED379F /* ViewController.swift */; };
+		7ACF329E2157A8B700ED379F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF329D2157A8B700ED379F /* ProfileViewController.swift */; };
 		7ACF32A12157A8B700ED379F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF329F2157A8B700ED379F /* Main.storyboard */; };
 		7ACF32A32157A8B800ED379F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF32A22157A8B800ED379F /* Assets.xcassets */; };
 		7ACF32A62157A8B800ED379F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF32A42157A8B800ED379F /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		7ACF32982157A8B700ED379F /* Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACF329B2157A8B700ED379F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7ACF329D2157A8B700ED379F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7ACF329D2157A8B700ED379F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		7ACF32A02157A8B700ED379F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7ACF32A22157A8B800ED379F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ACF32A52157A8B800ED379F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +35,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A1F070C215E837900EAFC9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ACF32A22157A8B800ED379F /* Assets.xcassets */,
+				7ACF32A42157A8B800ED379F /* LaunchScreen.storyboard */,
+				7ACF32A72157A8B800ED379F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		7ACF328F2157A8B700ED379F = {
 			isa = PBXGroup;
 			children = (
@@ -55,11 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				7ACF329B2157A8B700ED379F /* AppDelegate.swift */,
-				7ACF329D2157A8B700ED379F /* ViewController.swift */,
+				7ACF329D2157A8B700ED379F /* ProfileViewController.swift */,
 				7ACF329F2157A8B700ED379F /* Main.storyboard */,
-				7ACF32A22157A8B800ED379F /* Assets.xcassets */,
-				7ACF32A42157A8B800ED379F /* LaunchScreen.storyboard */,
-				7ACF32A72157A8B800ED379F /* Info.plist */,
+				7A1F070C215E837900EAFC9A /* Supporting Files */,
 			);
 			path = Homework;
 			sourceTree = "<group>";
@@ -96,6 +104,7 @@
 				TargetAttributes = {
 					7ACF32972157A8B700ED379F = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -135,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ACF329E2157A8B700ED379F /* ViewController.swift in Sources */,
+				7ACF329E2157A8B700ED379F /* ProfileViewController.swift in Sources */,
 				7ACF329C2157A8B700ED379F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +299,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Babich.Homework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -309,7 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Babich.Homework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
