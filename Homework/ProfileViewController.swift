@@ -39,6 +39,7 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate, 
     }
     
     @IBAction func takePhotoClicked() {
+        print("Выбери изображение профиля")
         let alertController = UIAlertController(title: "Новое фото профиля", message: nil, preferredStyle: .actionSheet)
         alertController.addAction(UIAlertAction(title: "Удалить", style: .destructive) { (alertAction) in
             self.profileImageView.image = UIImage(named: "placeholder-user")

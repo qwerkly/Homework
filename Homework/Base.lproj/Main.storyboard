@@ -36,7 +36,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Люблю разработку, шашлындос 🖕🏿, пивас и волейбол." translatesAutoresizingMaskIntoConstraints="NO" id="jve-Ag-hHg">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Люблю разработку, шашлындос, пивас и волейбол 😁." translatesAutoresizingMaskIntoConstraints="NO" id="jve-Ag-hHg">
                                 <rect key="frame" x="16" y="356" width="288" height="140"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
