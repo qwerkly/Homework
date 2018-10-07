@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A4E9F212168C36F001C3A10 /* ConversationsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E9F202168C36F001C3A10 /* ConversationsListViewController.swift */; };
+		7A4E9F232168C5BB001C3A10 /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E9F222168C5BB001C3A10 /* ConversationTableViewCell.swift */; };
+		7A4E9F25216A7252001C3A10 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E9F24216A7252001C3A10 /* ConversationViewController.swift */; };
+		7A4E9F27216A8423001C3A10 /* TransmittingMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E9F26216A8423001C3A10 /* TransmittingMessageTableViewCell.swift */; };
+		7A4E9F29216A8741001C3A10 /* ReceivingMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4E9F28216A8741001C3A10 /* ReceivingMessageTableViewCell.swift */; };
 		7ACF329C2157A8B700ED379F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF329B2157A8B700ED379F /* AppDelegate.swift */; };
 		7ACF329E2157A8B700ED379F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF329D2157A8B700ED379F /* ProfileViewController.swift */; };
 		7ACF32A12157A8B700ED379F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ACF329F2157A8B700ED379F /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A4E9F202168C36F001C3A10 /* ConversationsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsListViewController.swift; sourceTree = "<group>"; };
+		7A4E9F222168C5BB001C3A10 /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
+		7A4E9F24216A7252001C3A10 /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		7A4E9F26216A8423001C3A10 /* TransmittingMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransmittingMessageTableViewCell.swift; sourceTree = "<group>"; };
+		7A4E9F28216A8741001C3A10 /* ReceivingMessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivingMessageTableViewCell.swift; sourceTree = "<group>"; };
 		7ACF32982157A8B700ED379F /* Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACF329B2157A8B700ED379F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7ACF329D2157A8B700ED379F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -64,8 +74,13 @@
 		7ACF329A2157A8B700ED379F /* Homework */ = {
 			isa = PBXGroup;
 			children = (
-				7ACF329B2157A8B700ED379F /* AppDelegate.swift */,
 				7ACF329D2157A8B700ED379F /* ProfileViewController.swift */,
+				7A4E9F28216A8741001C3A10 /* ReceivingMessageTableViewCell.swift */,
+				7A4E9F26216A8423001C3A10 /* TransmittingMessageTableViewCell.swift */,
+				7A4E9F24216A7252001C3A10 /* ConversationViewController.swift */,
+				7A4E9F222168C5BB001C3A10 /* ConversationTableViewCell.swift */,
+				7A4E9F202168C36F001C3A10 /* ConversationsListViewController.swift */,
+				7ACF329B2157A8B700ED379F /* AppDelegate.swift */,
 				7ACF329F2157A8B700ED379F /* Main.storyboard */,
 				7A1F070C215E837900EAFC9A /* Supporting Files */,
 			);
@@ -144,8 +159,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A4E9F232168C5BB001C3A10 /* ConversationTableViewCell.swift in Sources */,
+				7A4E9F29216A8741001C3A10 /* ReceivingMessageTableViewCell.swift in Sources */,
 				7ACF329E2157A8B700ED379F /* ProfileViewController.swift in Sources */,
+				7A4E9F25216A7252001C3A10 /* ConversationViewController.swift in Sources */,
 				7ACF329C2157A8B700ED379F /* AppDelegate.swift in Sources */,
+				7A4E9F212168C36F001C3A10 /* ConversationsListViewController.swift in Sources */,
+				7A4E9F27216A8423001C3A10 /* TransmittingMessageTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
