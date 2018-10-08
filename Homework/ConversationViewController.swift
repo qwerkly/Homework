@@ -40,6 +40,7 @@ class ConversationViewController: UIViewController, UITableViewDataSource, UITab
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        chatTableView.estimatedRowHeight = 100
         chatTableView.rowHeight = UITableView.automaticDimension
     }
     
@@ -59,10 +60,6 @@ class ConversationViewController: UIViewController, UITableViewDataSource, UITab
             cell.messageTextView.text = messages[indexPath.row].text
             return cell
         }
-    }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 50
     }
 
 }

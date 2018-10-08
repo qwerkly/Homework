@@ -109,7 +109,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DWb-uD-wD7">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DWb-uD-wD7">
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
@@ -120,7 +120,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3g-yt-3SL">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D3g-yt-3SL">
                                                     <rect key="frame" x="15" y="11" width="240" height="58"/>
                                                     <color key="backgroundColor" white="0.82410292050102241" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -135,10 +135,10 @@
                                                 </textView>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="D3g-yt-3SL" firstAttribute="leading" secondItem="yRe-Dx-mrp" secondAttribute="leadingMargin" id="0bL-Dy-ymt"/>
                                                 <constraint firstItem="D3g-yt-3SL" firstAttribute="bottom" secondItem="yRe-Dx-mrp" secondAttribute="bottomMargin" id="KrP-VG-E15"/>
                                                 <constraint firstItem="D3g-yt-3SL" firstAttribute="width" secondItem="yRe-Dx-mrp" secondAttribute="width" multiplier="0.75" id="leS-Tb-6qi"/>
                                                 <constraint firstItem="D3g-yt-3SL" firstAttribute="top" secondItem="yRe-Dx-mrp" secondAttribute="topMargin" id="uVv-Vp-P4T"/>
-                                                <constraint firstItem="D3g-yt-3SL" firstAttribute="leading" secondItem="yRe-Dx-mrp" secondAttribute="leading" constant="15" id="z0b-by-W3i"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -152,7 +152,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xoy-jy-ANl">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xoy-jy-ANl">
                                                     <rect key="frame" x="65" y="11" width="240" height="58"/>
                                                     <color key="backgroundColor" red="0.2470588235" green="0.47058823529999999" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -167,7 +167,7 @@
                                                 </textView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="Xoy-jy-ANl" secondAttribute="trailing" constant="15" id="Jhe-AG-WnW"/>
+                                                <constraint firstItem="Xoy-jy-ANl" firstAttribute="trailing" secondItem="aAX-RV-P4l" secondAttribute="trailingMargin" id="Ggz-jC-q7M"/>
                                                 <constraint firstItem="Xoy-jy-ANl" firstAttribute="bottom" secondItem="aAX-RV-P4l" secondAttribute="bottomMargin" id="KGm-a3-gTC"/>
                                                 <constraint firstItem="Xoy-jy-ANl" firstAttribute="top" secondItem="aAX-RV-P4l" secondAttribute="topMargin" id="Uum-ZA-2GO"/>
                                                 <constraint firstItem="Xoy-jy-ANl" firstAttribute="width" secondItem="aAX-RV-P4l" secondAttribute="width" multiplier="0.75" id="Z3a-sz-G1h"/>
