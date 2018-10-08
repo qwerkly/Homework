@@ -24,6 +24,11 @@ class ConversationsListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         var onlineParameters = [[ConversationsParameters : Any]]()
+        let currentDate = Date()
+        onlineParameters.append([.Name: "Anton Nosov", .Message: "Swift!!!", .Date: currentDate, .Online: true, .HasUnreadMessages: true])
+        onlineParameters.append([.Name: "Anton Anosov", .Message: "Swift!!!", .Date: currentDate, .Online: true, .HasUnreadMessages: false])
+        onlineParameters.append([.Name: "Ferry Corsten", .Message: "Swift!!!", .Date: currentDate, .Online: false, .HasUnreadMessages: false])
+        onlineParameters.append([.Name: "LOL", .Message: "Swift!!!", .Date: currentDate, .Online: false, .HasUnreadMessages: true])
         for i in 0..<12 {
             let online = i % 2 == 0 ? true : false
             let hasUnread = i % 2 == 0 ? false : true

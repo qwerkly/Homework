@@ -22,10 +22,10 @@ class ConversationTableViewCell: UITableViewCell, ConversationCellConfiguration 
         set {
             if newValue == nil || newValue == "" {
                 self.messageLabel.text = "No messages yet"
-//                self.messageLabel.font = UIFont(name: "System Italic", size: 12)
+                self.messageLabel.font = UIFont(name: "Baskerville", size: 14)
             } else {
                 self.messageLabel.text = newValue
-//                self.messageLabel.font = UIFont(name: "System", size: 40)
+                self.messageLabel.font = UIFont(name: "Helvetica", size: 14)
             }
         } get {
             return self.messageLabel.text == "No messages yet" ? nil : self.messageLabel.text
@@ -73,13 +73,15 @@ class ConversationTableViewCell: UITableViewCell, ConversationCellConfiguration 
     
     var hasUnreadMessages: Bool {
         set {
-            if newValue {
-                self.messageLabel.font = UIFont(name: "System-Semibold", size: 12)
-            } else {
-                self.messageLabel.font = UIFont(name: "System-Light", size: 12)
+            if (message != nil && message != "") {
+                if newValue {
+                    self.messageLabel.font = UIFont(name: "Helvetica Bold", size: 14)
+                } else {
+                    self.messageLabel.font = UIFont(name: "Helvetica", size: 14)
+                }
             }
         } get {
-            if (self.messageLabel.font == UIFont(name: "System-Semibold", size: 12)) {
+            if (self.messageLabel.font == UIFont(name: "Helvetica Bold", size: 14)) {
                 return true
             } else {
                 return false
